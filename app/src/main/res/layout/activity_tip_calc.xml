@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/tipcalc_layout"
+    tools:context=".TipCalc">
+
+    <LinearLayout
+        android:id="@+id/stripes35"
+        android:layout_width="1000dp"
+        android:layout_height="1000dp"
+        android:orientation="vertical"
+        android:rotation="-45"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/ic_baseline_activitybackbutton"
+                android:id="@+id/backbutton"
+                app:tint="@color/black"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="291dp"
+            android:layout_height="416dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            app:cardCornerRadius="15dp"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvBaseLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bill"
+                        android:textColor="@android:color/black"
+                        android:textSize="28sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/etBase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:ems="8"
+                        android:hint="@string/add_your_amount"
+                        android:inputType="numberDecimal"
+                        android:textSize="24sp"
+                        app:layout_constraintBaseline_toBaselineOf="@id/tvBaseLabel"
+                        app:layout_constraintStart_toEndOf="@+id/tvBaseLabel"
+                        tools:ignore="Autofill" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTipPercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@id/tvBaseLabel"
+                        app:layout_constraintTop_toBottomOf="@+id/tvBaseLabel"
+                        tools:text="15%" />
+
+                    <SeekBar
+                        android:id="@+id/seekBarTip"
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:max="99"
+                        app:layout_constraintBottom_toBottomOf="@id/tvTipPercent"
+                        app:layout_constraintStart_toStartOf="@id/etBase"
+                        app:layout_constraintTop_toTopOf="@id/tvTipPercent" />
+
+                    <TextView
+                        android:id="@+id/tvTipDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@id/seekBarTip"
+                        app:layout_constraintStart_toStartOf="@id/seekBarTip"
+                        app:layout_constraintTop_toBottomOf="@+id/seekBarTip"
+                        tools:text="Acceptable" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTipLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/tip"
+                        android:textColor="@android:color/black"
+                        android:textSize="28sp"
+                        app:layout_constraintEnd_toEndOf="@id/tvBaseLabel"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTipPercent" />
+
+
+                    <TextView
+                        android:id="@+id/tvTipAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textSize="28sp"
+                        app:layout_constraintBottom_toBottomOf="@id/tvTipLabel"
+                        app:layout_constraintStart_toStartOf="@id/etBase"
+                        tools:text="00" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTotalLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/total"
+                        android:textColor="@android:color/black"
+                        android:textSize="28sp"
+                        app:layout_constraintEnd_toEndOf="@id/tvBaseLabel"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTipLabel" />
+
+                    <TextView
+                        android:id="@+id/tvTotalAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textSize="28sp"
+                        app:layout_constraintBottom_toBottomOf="@id/tvTotalLabel"
+                        app:layout_constraintStart_toStartOf="@id/etBase"
+                        tools:text="00" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

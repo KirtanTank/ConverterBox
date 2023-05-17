@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/force_layout"
+    tools:context=".Force">
+
+    <LinearLayout
+        android:id="@+id/stripes17"
+        android:layout_width="1000dp"
+        android:layout_height="1000dp"
+        android:orientation="vertical"
+        android:rotation="-45"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/stripe_gradient" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/ic_baseline_activitybackbutton"
+                android:id="@+id/backbutton"
+                app:tint="@color/black"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="550dp"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="15dp"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/input"
+                        android:layout_width="300dp"
+                        android:layout_height="70dp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:background="@drawable/input"
+                        android:padding="20dp"
+                        android:inputType="numberDecimal"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:typeface="normal"
+                        android:hint="@string/enter_value"
+                        android:layout_marginTop="50dp"
+                        tools:ignore="Autofill" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal|center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:text="@string/from"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:textSize="30sp"
+                            android:gravity="center_horizontal" />
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:id="@+id/spinner1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_secondConversion"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:text="@string/to"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:textSize="30sp"
+                            android:gravity="center_horizontal" />
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:id="@+id/spinner2"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal">
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="220dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/calculate"
+                        android:soundEffectsEnabled="true"
+                        android:background="@drawable/buttonbg"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20sp"
+                        android:padding="5sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/show"
+                        android:layout_width="match_parent"
+                        android:layout_height="118dp"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginTop="30sp"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="10sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

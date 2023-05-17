@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidman.converterbox">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Converter Box"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:exported="true"
+        android:theme="@style/Theme.ConverterBox">
+        <activity android:name="com.androidman.converterbox.Hardness"
+            android:exported="true"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.AWG"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.BloodSugar"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Prefix"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Radiation"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Illuminance"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode" />
+
+        <activity android:name="com.androidman.converterbox.Cooking"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Fuel"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Number"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Binary"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Angle"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Astronomy"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Concentration"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Viscosity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Density"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode" />
+
+        <activity android:name="com.androidman.converterbox.Torque"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Voltage"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode" />
+
+        <activity android:name="com.androidman.converterbox.Current"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Power"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Work"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Flow"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Force"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Pressure"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.MainActivity4"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name="com.androidman.converterbox.MainActivity3"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name="com.androidman.converterbox.Ring"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Hats"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Cloths_Women"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Cloths_Men"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Shoes_Women"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Shoes_Men"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Shoes_Kids"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Speed"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.MainActivity2"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name="com.androidman.converterbox.Currency"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Volume"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Area"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Data"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Time"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Temperature"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Length"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.Weight"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.AgeCalc"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.TipCalc"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/theme.darkmode"/>
+
+        <activity android:name="com.androidman.converterbox.SplashScreenActivity"
+            android:exported="true"
+            android:screenOrientation="fullSensor">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.androidman.converterbox.MainActivity"
+            android:screenOrientation="fullSensor"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+
+</manifest>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Converter Box</string>
+    <string name="converterbox" translatable="false">Converter Box</string>
+    <string name="tip_amount" translatable="false" >Tip Amount</string>
+
+    <string-array name="currencies">
+        <item>EUR</item>
+
+        <item>GBP</item>
+        <item>USD</item>
+        <item>DKK</item>
+        <item>SGD</item>
+
+        <item>INR</item>
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+
+        <item>JPY</item>
+        <item>NZD</item>
+        <item>MXN</item>
+        <item>CNY</item>
+
+        <item>BDT</item>
+        <item>RUB</item>
+        <item>BGN</item>
+        <item>BRL</item>
+
+        <item>IDR</item>
+        <item>HKD</item>
+        <item>ILS</item>
+        <item>BHD</item>
+    </string-array>
+
+    <string-array name="currencies2">
+        <item>USD</item>
+
+        <item>GBP</item>
+        <item>EUR</item>
+        <item>DKK</item>
+        <item>SGD</item>
+
+        <item>INR</item>
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+
+        <item>JPY</item>
+        <item>NZD</item>
+        <item>MXN</item>
+        <item>CNY</item>
+
+        <item>BDT</item>
+        <item>RUB</item>
+        <item>BGN</item>
+        <item>BRL</item>
+
+        <item>IDR</item>
+        <item>HKD</item>
+        <item>ILS</item>
+        <item>BHD</item>
+
+    </string-array>
+
+    <string name="choose_dob_dd_mm_yyyy_and_time">Choose DOB(dd/mm/yyyy) and Time</string>
+    <string name="find_age">FIND AGE</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="goback" translatable="false">goback</string>
+    <string name="enter_value">Enter Value</string>
+    <string name="from" translatable="false">FROM</string>
+    <string name="to" translatable="false">TO</string>
+    <string name="calculate">Calculate</string>
+    <string name="keep_your_wifi_internet_on_for_the_currency_convertor">Keep your WIFI/Internet ON for the currency convertor.</string>
+    <string name="length">Length</string>
+    <string name="area">Area</string>
+    <string name="weight">Weight</string>
+    <string name="volume">Volume</string>
+    <string name="currency">Currency</string>
+    <string name="temperature">Temperature</string>
+    <string name="time">Time</string>
+    <string name="speed">Speed</string>
+    <string name="tip_calculator">Tip Calculator</string>
+    <string name="age_calculator">Age Calculator</string>
+    <string name="shoes_kids">Shoes(Kids)</string>
+    <string name="shoes_men">Shoes(Men)</string>
+    <string name="shoes_women">Shoes(Women)</string>
+    <string name="cloths_men">Cloths(Men)</string>
+    <string name="cloths_women">Cloths(Women)</string>
+    <string name="hat">Hat</string>
+    <string name="ring">Ring</string>
+    <string name="pressure">Pressure</string>
+    <string name="force">Force</string>
+    <string name="work">Work</string>
+    <string name="power">Power</string>
+    <string name="flow">Flow</string>
+    <string name="current">Current</string>
+    <string name="voltage">Voltage</string>
+    <string name="torque">Torque</string>
+    <string name="density">Density</string>
+    <string name="viscosity">Viscosity</string>
+    <string name="concentration">Concentration</string>
+    <string name="astronomy">Astronomy</string>
+    <string name="angle">Angle</string>
+    <string name="data">Data</string>
+    <string name="fuel">Fuel</string>
+    <string name="cooking">Cooking</string>
+    <string name="illuminance">Illuminance</string>
+    <string name="radiation">Radiation</string>
+    <string name="prefix">Prefix</string>
+    <string name="binary">Binary</string>
+    <string name="blood_sugar">Blood Sugar</string>
+    <string name="awg">AWG</string>
+    <string name="hardness">Hardness</string>
+    <string name="number">Number</string>
+    <string name="bill">Bill</string>
+    <string name="add_your_amount">Add Your Amount</string>
+    <string name="tip">Tip</string>
+    <string name="total">Total</string>
+    <string name="converter_box">Converter Box</string>
+    <string name="basic_category">Basic Category</string>
+    <string name="living_category">Living Category</string>
+    <string name="science_category">Science Category</string>
+    <string name="other">Other</string>
+    <string name="share_app">Share app</string>
+</resources>
